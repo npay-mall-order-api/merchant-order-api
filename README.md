@@ -14,7 +14,7 @@
 
 ---
 
-## 📖 목차
+## 목차 (Table of Contents)
 - 소개(Introduction)
 - 사용 예제 (Example of use)
 
