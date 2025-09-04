@@ -22,7 +22,7 @@
 > The registered inquiries will be disclosed to other users as soon as they are posted.
 > Please be careful not to post the following information as the body of the content and the attached file.
 
-### Prohibited Information Example시
+### Prohibited Information Example
 - Personal information (resident registration number, contact information, address, etc.)
 - Authentication information such as account password, application information, tokens, etc
 - Company Confidential Documents and Sensitive Materials
