@@ -1,8 +1,7 @@
 <!-- ================= HEADER ================= -->
 <img src="https://github.com/user-attachments/assets/250d0aae-9fd7-40ec-80b1-d2e7d54ac41a" alt="Npay logo"/> 
 
-# 주문형 개발 기술지원
-
+# 주문형 API 개발 기술지원 (Order API Development Technical Support)
 
 
 ![GitHub stars](https://img.shields.io/github/stars/username/repo?style=social)
@@ -16,19 +15,18 @@
 ---
 
 ## 📖 목차
-- [소개](##소개)
-- [사용 예제](#사용-예제)
-- [API 문서](#api-문서)
-- [주의사항⚠️](#주의사항⚠️)
+- 소개(Introduction)
+- 사용 예제 (Example of use)
 
 ---
 
-## 소개
-제휴 파트너사를 이용하지 않고 Npay 주문형을 자체적으로 개발하는 연동사를 위한 기술지원 공간입니다. 
+## 소개 (Introduction)
+제휴 파트너사를 이용하지 않고 Npay 주문형을 자체적으로 개발하는 연동사를 위한 기술지원 공간입니다. <br />
+It is a technical support space for linked companies that develop their own Npay on-demand without using affiliated partners.
 
 ---
 
-## 사용예제
+## 사용 예제 (Example of use)
 ```html
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -52,8 +50,3 @@
 </body>
 </html>
 ```
-
-
----
-
-
