@@ -1,13 +1,11 @@
 <!-- ================= HEADER ================= -->
-<img src="https://github.com/user-attachments/assets/250d0aae-9fd7-40ec-80b1-d2e7d54ac41a" alt="Npay logo"/> 
+<img src="https://github.com/user-attachments/assets/250d0aae-9fd7-40ec-80b1-d2e7d54ac41a" alt="Npay logo"/>
 
 # 주문형 API 개발 기술지원 (Order API Development Technical Support)
 
-
-![GitHub stars](https://img.shields.io/github/stars/username/repo?style=social)
-![GitHub forks](https://img.shields.io/github/forks/username/repo?style=social)
-![GitHub issues](https://img.shields.io/github/issues/username/repo)
-![License](https://img.shields.io/github/license/username/repo)
+![GitHub stars](https://img.shields.io/github/stars/npay-mall-order-api/merchant-order-api?style=social)
+![GitHub Discussions](https://img.shields.io/github/discussions/npay-mall-order-api/merchant-order-api?style=social)
+![GitHub issues](https://img.shields.io/github/issues/npay-mall-order-api/merchant-order-api)
 
 **Tech stack:** `Restful` | `FastAPI` |
 **Status:** 🟢 Active Development
