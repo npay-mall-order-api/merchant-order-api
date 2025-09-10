@@ -12,19 +12,31 @@
 
 ---
 
-## 목차 (Table of Contents)
-- 소개(Introduction)
-- 사용 예제 (Example of use)
+### 공간 소개
+Npay 주문형을 자체적으로 개발하는 연동사를 위한 기술지원 공간입니다. <br />
+It is a technical support space for the development Npay order.
+
+### 공간 바로가기
+
+| 공간         | 내용                                                         | 링크 |
+|--------------|-------------------------------------------------------------|------------|
+| 📣 공지사항 | 공지사항을 확인하실 수 있습니다. | ➡ [바로가기](https://github.com/npay-mall-order-api/merchant-order-api/discussions/categories/announcements) |
+| 📝 릴리즈 노트 | API 에 업데이트 되는 내용들을 확인하실 수 있습니다. | ➡ [바로가기](https://github.com/npay-mall-order-api/merchant-order-api/discussions/categories/release-note) |
+| 🙏 묻고 답하기 | API 연동 중 기술 문의사항을 직접 문의하실 수 있습니다. | ➡ [바로가기](https://github.com/npay-mall-order-api/merchant-order-api/discussions/categories/q-a) |
+| 💡 자주 묻는 질문 | API 연동 중 자주 묻는 질문 (FAQ) 을 확인하실 수 있습니다. | ➡ [바로가기](https://github.com/npay-mall-order-api/merchant-order-api/discussions/categories/faq) |
 
 ---
 
-## 소개 (Introduction)
-제휴 파트너사를 이용하지 않고 Npay 주문형을 자체적으로 개발하는 연동사를 위한 기술지원 공간입니다. <br />
-It is a technical support space for linked companies that develop their own Npay on-demand without using affiliated partners.
+### API 연동 시작하기
+
+#### + API 문서 가이드 바로가기 추가 +
 
 ---
 
-## 사용 예제 (Example of use)
+
+
+
+### Npay 주문형 버튼 적용 예제
 ```html
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
