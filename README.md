@@ -13,7 +13,7 @@
 ---
 
 ### 공간 소개
-Npay 주문형을 자체적으로 개발하는 연동사를 위한 기술지원 공간입니다. <br />
+Npay 주문형 연동 개발을 위한 기술지원 공간입니다. <br />
 It is a technical support space for the development Npay order.
 
 ### 공간 바로가기
