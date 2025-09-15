@@ -1,6 +1,4 @@
 <!-- ================= HEADER ================= -->
-<img src="https://github.com/user-attachments/assets/250d0aae-9fd7-40ec-80b1-d2e7d54ac41a" alt="Npay logo"/>
-
 # 주문형 API 개발 기술지원
 
 ![GitHub stars](https://img.shields.io/github/stars/npay-mall-order-api/merchant-order-api?style=social)
