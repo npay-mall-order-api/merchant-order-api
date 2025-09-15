@@ -1,14 +1,13 @@
 <!-- ================= HEADER ================= -->
 <img src="https://github.com/user-attachments/assets/250d0aae-9fd7-40ec-80b1-d2e7d54ac41a" alt="Npay logo"/>
 
-# 주문형 API 개발 기술지원 (Order API Development Technical Support)
+# 주문형 API 개발 기술지원
 
 ![GitHub stars](https://img.shields.io/github/stars/npay-mall-order-api/merchant-order-api?style=social)
 ![GitHub Discussions](https://img.shields.io/github/discussions/npay-mall-order-api/merchant-order-api?style=social)
 ![GitHub issues](https://img.shields.io/github/issues/npay-mall-order-api/merchant-order-api)
 
-**Tech stack:** `Restful` | `FastAPI` |
-**Status:** 🟢 Active Development
+**Tech stack:** `Restful` |
 
 ---
 
@@ -31,7 +30,7 @@ It is a technical support space for the development Npay order.
 네이버페이 주문형 가맹점이 네이버페이 이용 중 주문 관련 내역 또는 그 밖의 필요한 정보를 조회 혹은 처리할 수 있는 API 입니다.
 
 ## API 문서 가이드 바로가기
-API 문서 가이드 ➡ [바로가기](https://github.com/npay-mall-order-api/merchant-order-api/discussions/categories/announcements)
+API 문서 가이드 ➡ [바로가기](https://admin.pay.naver.com/)
 
 ## 주문형 API 종류
 
@@ -62,17 +61,17 @@ API 문서 가이드 ➡ [바로가기](https://github.com/npay-mall-order-api/m
 |                | 문의처리                |문의 처리                       | No Content    |  구매자가 등록한 문의에 답변 처리 혹은 답변 수정     |
 
 ## 주문형 API 인증 정보 확인
-내 API 호출 인증 정보 (애플리케이션) 조회 ➡ [바로가기](https://github.com/npay-mall-order-api/merchant-order-api/discussions/categories/announcements)
+내 API 호출 인증 정보 (애플리케이션) 조회 ➡ [바로가기](https://admin.pay.naver.com/)
 
 ## 주문형 API 주문 상태 변경 다이어그램
 정상 주문, 취소, 반품, 교환에 따른 주문의 상태 변경을 다이어그램으로 설명합니다. 
 
 | 구분         | 링크                                                         | 
 |--------------|-------------------------------------------------------------|
-| 정상 주문 상태 | ➡ [바로가기](https://github.com/npay-mall-order-api/merchant-order-api/discussions/categories/announcements) |
-| 취소 주문 상태 | ➡ [바로가기](https://github.com/npay-mall-order-api/merchant-order-api/discussions/categories/release-note) |
-| 반품 주문 상태 | ➡ [바로가기](https://github.com/npay-mall-order-api/merchant-order-api/discussions/categories/q-a) |
-| 교환 주문 상태 | ➡ [바로가기](https://github.com/npay-mall-order-api/merchant-order-api/discussions/categories/faq) |
+| 정상 주문 상태 | ➡ [바로가기](https://github.com/npay-mall-order-api/merchant-order-api/wiki/%EC%A3%BC%EB%AC%B8-%EC%83%81%ED%83%9C-%EC%9D%B4%EB%8F%99-%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8#%EC%A0%95%EC%83%81-%EC%A3%BC%EB%AC%B8-%EC%83%81%ED%83%9C-%EC%9D%B4%EB%8F%99-%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8) |
+| 취소 주문 상태 | ➡ [바로가기](https://github.com/npay-mall-order-api/merchant-order-api/wiki/%EC%A3%BC%EB%AC%B8-%EC%83%81%ED%83%9C-%EC%9D%B4%EB%8F%99-%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8#%EC%B7%A8%EC%86%8C-%EC%A3%BC%EB%AC%B8-%EC%83%81%ED%83%9C-%EC%9D%B4%EB%8F%99-%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8) |
+| 반품 주문 상태 | ➡ [바로가기]([https://github.com/npay-mall-order-api/merchant-order-api/discussions/7](https://github.com/npay-mall-order-api/merchant-order-api/wiki/%EC%A3%BC%EB%AC%B8-%EC%83%81%ED%83%9C-%EC%9D%B4%EB%8F%99-%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8#%EB%B0%98%ED%92%88-%EC%A3%BC%EB%AC%B8-%EC%83%81%ED%83%9C-%EC%9D%B4%EB%8F%99-%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8)) |
+| 교환 주문 상태 | ➡ [바로가기]([https://github.com/npay-mall-order-api/merchant-order-api/discussions/7](https://github.com/npay-mall-order-api/merchant-order-api/wiki/%EC%A3%BC%EB%AC%B8-%EC%83%81%ED%83%9C-%EC%9D%B4%EB%8F%99-%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8#%EA%B5%90%ED%99%98-%EC%A3%BC%EB%AC%B8-%EC%83%81%ED%83%9C-%EC%9D%B4%EB%8F%99-%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8)) |
 
 ---
 
