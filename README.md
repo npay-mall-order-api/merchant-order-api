@@ -12,11 +12,11 @@
 
 ---
 
-### 공간 소개
+## 공간 소개
 Npay 주문형 연동 개발을 위한 기술지원 공간입니다. <br />
 It is a technical support space for the development Npay order.
 
-### 공간 바로가기
+## 공간 바로가기
 
 | 공간         | 내용                                                         | 링크 |
 |--------------|-------------------------------------------------------------|------------|
@@ -27,11 +27,10 @@ It is a technical support space for the development Npay order.
 
 ---
 
-### API 연동 시작하기
-#### 주문형 API 개요
+## 주문형 API 개요
 네이버페이 주문형 가맹점이 네이버페이 이용 중 주문 관련 내역 또는 그 밖의 필요한 정보를 조회 혹은 처리할 수 있는 API 입니다.
 
-#### 주문형 API 종류
+## 주문형 API 종류
 
 | 구분           |                         | API                           | Endpoint      | 설명                                               |
 |----------------|-------------------------|-------------------------------|---------------|----------------------------------------------------|
@@ -59,48 +58,11 @@ It is a technical support space for the development Npay order.
 | **문의**       | 문의조회                | 문의 조회                      | No Content    |  구매자가 등록한 문의를 조회                        |
 |                | 문의처리                |문의 처리                       | No Content    |  구매자가 등록한 문의에 답변 처리 혹은 답변 수정     |
 
-#### 주문형 API 종류
-내 API 호출 인증 정보 (애플리케이션) 조회하러 가기 ➡ [바로가기](https://github.com/npay-mall-order-api/merchant-order-api/discussions/categories/announcements)
+## 주문형 API 인증 정보 확인
+내 API 호출 인증 정보 (애플리케이션) 조회 ➡ [바로가기](https://github.com/npay-mall-order-api/merchant-order-api/discussions/categories/announcements)
 
-#### 주문형 API 주문 상태 변경 다이어그램
-정상 주문, 취소, 반품, 교환에 따른 주문의 상태 변경을 다이어그램으로 설명합니다. 
-
-| 구분         | 링크                                                         | 
-|--------------|-------------------------------------------------------------|
-| 정상 주문 상태 | ➡ [바로가기](https://github.com/npay-mall-order-api/merchant-order-api/discussions/categories/announcements) |
-| 취소 주문 상태 | ➡ [바로가기](https://github.com/npay-mall-order-api/merchant-order-api/discussions/categories/release-note) |
-| 반품 주문 상태 | ➡ [바로가기](https://github.com/npay-mall-order-api/merchant-order-api/discussions/categories/q-a) |
-| 교환 주문 상태 | ➡ [바로가기](https://github.com/npay-mall-order-api/merchant-order-api/discussions/categories/faq) |
-
-
-#### API 문서 가이드 바로가기
+## API 문서 가이드 바로가기
+API 문서 가이드 ➡ [바로가기](https://github.com/npay-mall-order-api/merchant-order-api/discussions/categories/announcements)
 
 ---
 
-
-
-
-### Npay 주문형 버튼 적용 예제
-```html
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
-    <title>네이버페이 버튼 사용법</title>
-    <script type="text/javascript" src="http://pay.naver.com/customer/js/naverPayButton.js" charset="UTF-8"></script>
-</head>
-<body>
-    <script type="text/javascript">
-        //<![CDATA[ // 
-        naver.NaverPayButton.apply({
-            BUTTON_KEY: "버튼 인증 키", // 네이버페이에서 제공받은 버튼 인증 키 입력
-            TYPE: "E", // 버튼 모음 종류 설정
-            COLOR: 1, // 버튼 모음의 색 설정
-            COUNT: 2, // 버튼 개수 설정. 구매하기 버튼만 있으면(장바구니 페이지) 1, 찜하기 버튼도 있으면(상품 상세 페이지) 2를 입력.
-            ENABLE: "Y", // 품절 등의 이유로 버튼 모음을 비활성화할 때에는 "N" 입력
-            "": ""
-        }); //]]>
-    </script>
-</body>
-</html>
-```
