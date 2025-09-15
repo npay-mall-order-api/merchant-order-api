@@ -30,6 +30,9 @@ It is a technical support space for the development Npay order.
 ## 주문형 API 개요
 네이버페이 주문형 가맹점이 네이버페이 이용 중 주문 관련 내역 또는 그 밖의 필요한 정보를 조회 혹은 처리할 수 있는 API 입니다.
 
+## API 문서 가이드 바로가기
+API 문서 가이드 ➡ [바로가기](https://github.com/npay-mall-order-api/merchant-order-api/discussions/categories/announcements)
+
 ## 주문형 API 종류
 
 | 구분           |                         | API                           | Endpoint      | 설명                                               |
@@ -61,8 +64,15 @@ It is a technical support space for the development Npay order.
 ## 주문형 API 인증 정보 확인
 내 API 호출 인증 정보 (애플리케이션) 조회 ➡ [바로가기](https://github.com/npay-mall-order-api/merchant-order-api/discussions/categories/announcements)
 
-## API 문서 가이드 바로가기
-API 문서 가이드 ➡ [바로가기](https://github.com/npay-mall-order-api/merchant-order-api/discussions/categories/announcements)
+## 주문형 API 주문 상태 변경 다이어그램
+정상 주문, 취소, 반품, 교환에 따른 주문의 상태 변경을 다이어그램으로 설명합니다. 
+
+| 구분         | 링크                                                         | 
+|--------------|-------------------------------------------------------------|
+| 정상 주문 상태 | ➡ [바로가기](https://github.com/npay-mall-order-api/merchant-order-api/discussions/categories/announcements) |
+| 취소 주문 상태 | ➡ [바로가기](https://github.com/npay-mall-order-api/merchant-order-api/discussions/categories/release-note) |
+| 반품 주문 상태 | ➡ [바로가기](https://github.com/npay-mall-order-api/merchant-order-api/discussions/categories/q-a) |
+| 교환 주문 상태 | ➡ [바로가기](https://github.com/npay-mall-order-api/merchant-order-api/discussions/categories/faq) |
 
 ---
 
