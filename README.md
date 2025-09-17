@@ -5,7 +5,7 @@
 ![GitHub Discussions](https://img.shields.io/github/discussions/npay-mall-order-api/merchant-order-api?style=social)
 ![GitHub issues](https://img.shields.io/github/issues/npay-mall-order-api/merchant-order-api)
 
-**Tech stack:** `Restful` | `HTTPS`
+**Tech stack:** `Restful` `OAuth 2.0` | `HTTPS`
 
 ---
 
@@ -22,18 +22,58 @@ Npay 주문형 연동 개발을 위한 기술지원 Github 공간입니다.
 ---
 
 ## 주문형 API 소개
-네이버페이 주문형 가맹점이 네이버페이 이용 중 주문 관련 내역 또는 그 밖의 필요한 정보를 조회 혹은 처리할 수 있는 API 입니다.
-#### API 문서 가이드 바로가기 ➡ [바로가기](https://admin.pay.naver.com/)
+네이버페이 주문형 가맹점이 네이버페이 이용 중 주문 관련 내역 또는 그 밖의 필요한 정보를 조회 혹은 처리할 수 있는 API 입니다. <br />
+
+| 공간         | 내용                                                         | 링크 |
+|--------------|-------------------------------------------------------------|------------|
+| 📖 API 문서 가이드 | API 호출에 대한 가이드를 확인하실 수 있습니다. | ➡ [바로가기](https://admin.pay.naver.com/) |
+
 
 ## 주문형 API 연동 시작하기
-| step   | 내용                                                         | 링크 |
-|--------|-------------------------------------------------------------|-------|
-| Step 0 | 연동 프로세스 확인하기 | ➡ [바로가기]() |
-| Step 1 |  | ➡ [바로가기]() |
-| Step 2 |  | ➡ [바로가기]() |
-| Step 3 |  | ➡ [바로가기]() |
+#### 0️⃣ 에플리케이션 인증 정보 발급하기
+<details>
+  <summary>more...</summary>
+  애플리케이션 인증 정보 발급&등록
+</details>
 
-## 주문형 API 종류
+#### 1️⃣ 인증 토큰 발급하기
+<details>
+  <summary>more...</summary>
+
+  API 를 호출하기 위한 인증 토큰을 발급/갱신 요청합니다. 
+  동일 리소스 (type 과 merchant_id 에 따라) 에는 하나의 인증 토큰이 발급되며, 인증 토큰의 유효 시간은 3시간 (10,800초) 입니다. 발급된 인증 토큰이 존재하는 경우 남은 유효 시간이 30분 이상이면 기존 인증 토큰이 반환되고 30분 미만이면 새로운 인증 토큰이 발급됩니다. 
+  새로운 인증 토큰이 발급된 경우에도 유효 시간이 만료되기 전까지는 기존 인증 토큰을 사용할 수 있습니다.
+
+| API         | Method                                                         | Path | 링크
+|--------------|-------------------------------------------------------------|------------|
+| 인증 토큰 발급 요청 | `/v1/oauth2/token` | ![POST](https://img.shields.io/badge/POST-green) | ➡ [바로가기](https://admin.pay.naver.com/) |
+
+##### ❓Request Body 중 `client_secret_sign` 전자서명 생성하는 방법
+주문형 API 에서는 인증 토큰 발급을 요청할 때 client_secret 값을 직접 전달하지 않고 전자서명 (signature) 을 생성하여 전달하는 방법으로 client_secret 탈취에 대해 강화된 보안을 제공합니다.
+전자서명 생성할 때에는 아래와 같은 정보가 필요합니다.
+- client_id : 애플리케이션 ID
+- client_secret : 애플리케이션 }Secret
+- timestamp : 밀리초(millisecond) 단위의 Unix 시간
+
+
+
+
+
+  
+</details>
+
+
+2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣🔟
+#### Step 1. 
+
+#### Step 2. 
+
+
+
+## 주문형 API 내용
+### 호스트
+- 운영 환경 : `https://api.pay.naver.com/npay/partner`
+- 개발 환경 : `https://sandbox-api.pay.naver.com/npay/partner`
 
 | 구분                    | API                           | Method | Path          | 설명                                               |
 |-------------------------|-------------------------------|------|---------------|----------------------------------------------------|
