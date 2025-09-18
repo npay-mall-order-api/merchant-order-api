@@ -10,7 +10,8 @@
 ---
 
 ## Github 소개
-Npay 주문형 연동 개발을 위한 기술지원 Github 공간입니다.
+Npay 주문형 연동 개발을 위한 기술지원 Github 공간입니다. <br/>
+Repository 알림 (Watch) 을 활성화 해주시면 원활한 문의&답변이 가능합니다. (ℹ️ Repository 상단 → Watch → Participating and @mentions) 
 
 | 공간         | 내용                                                         | 링크 |
 |--------------|-------------------------------------------------------------|------------|
@@ -18,6 +19,8 @@ Npay 주문형 연동 개발을 위한 기술지원 Github 공간입니다.
 | 📝 릴리즈 노트 | API 에 업데이트 되는 내용들을 확인하실 수 있습니다. | ➡ [바로가기](https://github.com/npay-mall-order-api/merchant-order-api/discussions/categories/release-note) |
 | 🙏 묻고 답하기 | API 연동 중 기술 문의사항을 직접 문의하실 수 있습니다. | ➡ [바로가기](https://github.com/npay-mall-order-api/merchant-order-api/discussions/categories/q-a) |
 | 💡 자주 묻는 질문 | API 연동 중 자주 묻는 질문 (FAQ) 을 확인하실 수 있습니다. | ➡ [바로가기](https://github.com/npay-mall-order-api/merchant-order-api/discussions/categories/faq) |
+
+
 
 ---
 
@@ -33,7 +36,8 @@ Npay 주문형 연동 개발을 위한 기술지원 Github 공간입니다.
 #### Step 0️⃣. 애플리케이션 인증 정보 (ID/Secret) 발급하기
 <details>
   <summary>more</summary>
-  애플리케이션 인증 정보 발급&등록
+  애플리케이션 인증 정보 발급하기 ➡ [바로가기](https://admin.pay.naver.com/)
+  애플리케이션 인증 정보 조회하기 ➡ [바로가기](https://admin.pay.naver.com/)
 </details>
 
 #### Step 1️⃣. OAuth 토큰 발급하기
@@ -93,10 +97,8 @@ Npay 주문형 연동 개발을 위한 기술지원 Github 공간입니다.
 |           | 교환 보류 해제                 | ![POST](https://img.shields.io/badge/POST-green) | `/v1/pay-order/mall/product-orders/{productOrderId}/claim/exchange/holdback/release` |  1건의 상품 주문에 대한 교환 보류를 해제 |
 | 리뷰      | 리뷰 조회                     | ![GET](https://img.shields.io/badge/GET-blue) | `/v1/pay-order/mall/reviews` |  상품 주문에 대한 리뷰를 조회 |
 
-## 주문형 API 인증 정보 확인
-내 API 호출 인증 정보 (애플리케이션) 조회 ➡ [바로가기](https://admin.pay.naver.com/)
 
-## 주문형 API 주문 상태 변경 다이어그램
+### 주문 상태 변경 다이어그램
 정상 주문, 취소, 반품, 교환에 따른 주문의 상태 변경을 다이어그램으로 설명합니다. 
 
 | 구분         | 링크                                                         | 
@@ -107,4 +109,11 @@ Npay 주문형 연동 개발을 위한 기술지원 Github 공간입니다.
 | 교환 주문 상태 | ➡ [바로가기](https://github.com/npay-mall-order-api/merchant-order-api/wiki/%EC%A3%BC%EB%AC%B8-%EC%83%81%ED%83%9C-%EC%9D%B4%EB%8F%99-%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8#%EA%B5%90%ED%99%98-%EC%A3%BC%EB%AC%B8-%EC%83%81%ED%83%9C-%EC%9D%B4%EB%8F%99-%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8) |
 
 ---
+
+## SOAP → REST API 전환 
+기존의 SOAP 방식에서 REST API 로 전환하면서 궁금해하실만한 내용들을 정리해놓았습니다. ➡ [바로가기](https://admin.pay.naver.com/)
+
+
+
+
 
