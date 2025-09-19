@@ -28,24 +28,26 @@ Repository 알림 (Watch) 을 활성화 해주시면 원활한 문의&답변이 
 ## 주문형 API 소개
 네이버페이 주문형 가맹점이 네이버페이 이용 중 주문 관련 내역 또는 그 밖의 필요한 정보를 조회 혹은 처리할 수 있는 API 입니다. <br />
 
-## 주문형 API 문서 가이드
-API 호출에 대한 가이드를 확인하실 수 있습니다.  ➡ [바로가기](https://admin.pay.naver.com/)
+## 주문형 API 문서 가이드 ➡ [바로가기](https://api.pay.naver.com/npay/partner)
+API 호출에 대한 가이드를 확인하실 수 있습니다.  
 
 ## 주문형 API 연동 시작하기
 #### Step 0️⃣. 애플리케이션 인증 정보 (ID/Secret) 발급하기
 <details>
   <summary>more</summary>
-  애플리케이션 인증 정보 발급하기 ➡ [바로가기](https://admin.pay.naver.com/)
-  애플리케이션 인증 정보 조회하기 ➡ [바로가기](https://admin.pay.naver.com/)
+  
+  인증 정보 발급하기 ➡ [바로가기](https://github.com/npay-mall-order-api/partner-cafe24/wiki/%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98-%EB%B0%9C%EA%B8%89-%EB%B0%A9%EB%B2%95) <br/>
+  인증 정보 조회하기 ➡ [바로가기](https://admin.pay.naver.com/)
+
 </details>
 
 #### Step 1️⃣. OAuth 토큰 발급하기
 <details>
   <summary>more</summary>
 
-  API 를 호출하기 위한 인증 토큰을 발급/갱신 요청합니다. ➡ 📖 API 문서 가이드 [바로가기](https://admin.pay.naver.com/)
+  API 를 호출하기 위한 인증 토큰을 발급/갱신 요청합니다. ➡ 📖 API 문서 가이드 [바로가기](https://api.pay.naver.com/npay/partner#tag/OAuth-2.0)
   
->ℹ️ 인증 토큰 Request Body 중 전자서명 생성하는 방법 ➡ 📖 API 문서 가이드 [바로가기](https://admin.pay.naver.com/) <br/>
+> ❓ 인증 토큰 Request Body 중 전자서명 생성하는 방법 ➡ 📖 API 문서 가이드 [바로가기](https://api.pay.naver.com/npay/partner#section/%EC%9D%B8%EC%A6%9D/%EC%A0%84%EC%9E%90%EC%84%9C%EB%AA%85) <br/>
 >주문형 API 에서는 인증 토큰 발급을 요청할 때 client_secret 값을 직접 전달하지 않고 전자서명 (signature) 을 생성하여 전달하는 방법으로 client_secret 탈취에 대해 강화된 보안을 제공합니다.
 
 </details>
@@ -53,7 +55,8 @@ API 호출에 대한 가이드를 확인하실 수 있습니다.  ➡ [바로가
 #### Step 2️⃣. 발급받은 토큰을 이용한 API 호출
 <details>
   <summary>more</summary>
-발급받은 인증 토큰을 HTTP Authorization Header 에 포함하여 API 를 호출합니다. ➡ 📖 API 문서 가이드 [바로가기](https://admin.pay.naver.com/)
+  
+발급받은 인증 토큰을 HTTP Authorization Header 에 포함하여 API 를 호출합니다. ➡ 📖 API 문서 가이드 [바로가기](https://api.pay.naver.com/npay/partner#tag/%EC%A3%BC%EB%AC%B8-%EC%A1%B0%ED%9A%8C) <br/>
   `Authorization: Bearer {access_token}`
 
 </details>
@@ -62,7 +65,7 @@ API 호출에 대한 가이드를 확인하실 수 있습니다.  ➡ [바로가
 <details>
   <summary>more</summary>
   
-  인증 토큰의 유효 시간은 3시간(10,800초)입니다. ➡ 📖 API 문서 가이드 [바로가기](https://admin.pay.naver.com/)
+  인증 토큰의 유효 시간은 3시간(10,800초)입니다. ➡ 📖 API 문서 가이드 [바로가기](https://api.pay.naver.com/npay/partner#tag/OAuth-2.0/operation/issueToken.commerce-id)
   발급된 인증 토큰이 존재하는 경우 남은 유효 시간이 30분 이상이면 기존 인증 토큰이 반환되고 30분 미만이면 새로운 인증 토큰이 발급됩니다. <br/>
   새로운 인증 토큰이 발급된 경우에도 유효 시간이 만료되기 전까지는 기존 인증 토큰을 사용할 수 있습니다.<br/>
 
