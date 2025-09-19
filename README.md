@@ -19,6 +19,7 @@ Repository 알림 (Watch) 을 활성화 해주시면 원활한 문의&답변이 
 | 📝 릴리즈 노트 | API 에 업데이트 되는 내용들을 확인하실 수 있습니다. | ➡ [바로가기](https://github.com/npay-mall-order-api/merchant-order-api/discussions/categories/release-note) |
 | 🙏 묻고 답하기 | API 연동 중 기술 문의사항을 직접 문의하실 수 있습니다. | ➡ [바로가기](https://github.com/npay-mall-order-api/merchant-order-api/discussions/categories/q-a) |
 | 💡 자주 묻는 질문 | API 연동 중 자주 묻는 질문 (FAQ) 을 확인하실 수 있습니다. | ➡ [바로가기](https://github.com/npay-mall-order-api/merchant-order-api/discussions/categories/faq) |
+| 📖 Wiki | API 연동 가이드 및 참고 정보를 확인하실 수 있습니다.  | ➡ [바로가기](https://github.com/npay-mall-order-api/merchant-order-api/wiki) |
 
 
 
@@ -111,7 +112,7 @@ Repository 알림 (Watch) 을 활성화 해주시면 원활한 문의&답변이 
 ---
 
 ## SOAP → REST API 전환 
-기존의 SOAP 방식에서 REST API 로 전환하면서 궁금해하실만한 내용들을 정리해놓았습니다. ➡ [바로가기](https://admin.pay.naver.com/)
+기존의 SOAP 방식에서 REST API 로 전환하면서 궁금해하실만한 내용들을 정리해놓았습니다. ➡ [바로가기](https://github.com/npay-mall-order-api/merchant-order-api/wiki/SOAP-%E2%86%92-REST-API-%EC%A0%84%ED%99%98-%EC%B0%B8%EA%B3%A0%EC%82%AC%ED%95%AD)
 
 
 
