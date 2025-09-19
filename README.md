@@ -11,7 +11,8 @@
 
 ## Github 소개
 Npay 주문형 연동 개발을 위한 기술지원 Github 공간입니다. <br/>
-Repository 알림 (Watch) 을 활성화 해주시면 원활한 문의&답변이 가능합니다. (※ Repository 상단 → Watch → Participating and @mentions) 
+Repository 알림 (Watch) 을 활성화 해주시면 원활한 문의&답변이 가능합니다. <br />
+(※ Repository 상단 → Watch → Participating and @mentions) 
 
 | 공간         | 내용                                                         | 링크 |
 |--------------|-------------------------------------------------------------|------------|
