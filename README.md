@@ -44,8 +44,8 @@ Repository 알림 (Watch) 을 활성화 해주시면 원활한 문의&답변이 
 
   <br/>
   
-  인증 정보 발급하기 ➡ [바로가기](https://github.com/npay-mall-order-api/partner-cafe24/wiki/%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98-%EB%B0%9C%EA%B8%89-%EB%B0%A9%EB%B2%95) <br/>
-  인증 정보 조회하기 ➡ [바로가기](https://admin.pay.naver.com/)
+  인증 정보 발급하기 ➡ [바로가기]() <br/>
+  인증 정보 조회하기 ➡ [바로가기]()
 
 </details>
 
