@@ -37,50 +37,62 @@ Repository 알림 (Watch) 을 활성화 해주시면 원활한 문의&답변이 
 ※ 위 문서는 발급받은 애플리케이션 `ID`/`시크릿` 으로 확인 가능합니다.
 ---
 
-## 주문형 API 연동 시작하기
+## 주문형 API 연동 프로세스
 
 <details>
-  <summary>Step 0️⃣. 애플리케이션 인증 정보 (ID/Secret) 발급하기</summary>
+  <summary>Step 0️⃣. 개발 환경 애플리케이션 인증 정보 (ID/Secret) 발급하기</summary>
 
   <br/>
-  
-  인증 정보 발급하기 ➡ [바로가기]() <br/>
-  인증 정보 조회하기 ➡ [바로가기]()
+  발급된 애플리케이션은 별도 메일 발송됩니다. (파일 암호는 '휴대폰 번호' 로 발송됩니다.)
 
 </details>
 
 <details>
-  <summary>Step 1️⃣. OAuth 토큰 발급하기</summary>
-  
-<br />
+  <summary>Step 1️⃣. 개발 환경에서 API 연동하기</summary>
 
+  #### 1. OAuth 토큰 발급하기
+  &nbsp;&nbsp;&nbsp;&nbsp;
   API 를 호출하기 위한 인증 토큰을 발급/갱신 요청합니다. ➡ 📖 API 문서 가이드 [바로가기](https://api.pay.naver.com/npay/partner#tag/OAuth-2.0)
   
-> ❓ 인증 토큰 Request Body 중 전자서명 생성하는 방법 ➡ 📖 API 문서 가이드 [바로가기](https://api.pay.naver.com/npay/partner#section/%EC%9D%B8%EC%A6%9D/%EC%A0%84%EC%9E%90%EC%84%9C%EB%AA%85) <br/>  <br />
-> 주문형 API 에서는 인증 토큰 발급을 요청할 때 client_secret 값을 직접 전달하지 않고 전자서명 (signature) 을 생성하여 전달하는 방법으로 client_secret 탈취에 대해 강화된 보안을 제공합니다.
+  >❓ 인증 토큰 Request Body 중 전자서명 생성하는 방법 ➡ 📖 API 문서 가이드 [바로가기](https://api.pay.naver.com/npay/partner#section/%EC%9D%B8%EC%A6%9D/%EC%A0%84%EC%9E%90%EC%84%9C%EB%AA%85) <br/>  <br />
+  >주문형 API 에서는 인증 토큰 발급을 요청할 때 client_secret 값을 직접 전달하지 않고 전자서명 (signature) 을 생성하여 전달하는 방법으로 client_secret 탈취에 대해 강화된 보안을 제공합니다.
 
-</details>
-
-<details>
-  <summary>Step 2️⃣. 발급받은 토큰을 이용한 API 호출</summary>
+  #### 2. 발급받은 토큰을 이용한 API 호출 및 개발
   
-  <br />
-  
-발급받은 인증 토큰을 HTTP Authorization Header 에 포함하여 API 를 호출합니다. ➡ 📖 API 문서 가이드 [바로가기](https://api.pay.naver.com/npay/partner#tag/%EC%A3%BC%EB%AC%B8-%EC%A1%B0%ED%9A%8C) <br/>  <br />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  발급받은 인증 토큰을 HTTP Authorization Header 에 포함하여 API 를 호출합니다. ➡ 📖 API 문서 가이드 [바로가기](https://api.pay.naver.com/npay/partner#tag/%EC%A3%BC%EB%AC%B8-%EC%A1%B0%ED%9A%8C) <br/>  <br />
+  &nbsp;&nbsp;&nbsp;&nbsp;
   `Authorization: Bearer {access_token}`
 
+  #### 3. 필요한 API 들을 확인하여 개발합니다.
+
 </details>
 
 
 <details>
-  <summary>Step 3️⃣. 인증 토큰 만료 여부에 따라 갱신 요청</summary>
+  <summary>Step 3️⃣. 개발 환경 검수 요청하기</summary>
   
   <br />
   
-  인증 토큰의 유효 시간은 3시간(10,800초)입니다. <br/>
-  발급된 인증 토큰이 존재하는 경우 남은 유효 시간이 30분 이상이면 기존 인증 토큰이 반환되고 30분 미만이면 새로운 인증 토큰이 발급됩니다. <br/>
-  새로운 인증 토큰이 발급된 경우에도 유효 시간이 만료되기 전까지는 기존 인증 토큰을 사용할 수 있습니다.<br/>
+  개발 환경에서의 API 연동 개발이 완료되면 기술지원 부서로 검수 요청을 합니다. ➡ 검수 요청 [바로가기](https://github.com/npay-mall-order-api/partner-cafe24/discussions/categories/q-a) <br/>
+  검수 중 수정이 필요한 내용들은 수정 요청드릴 예정이며, 수정이 모두 확인되면 개발 환경에서의 검수가 완료됩니다.
+  
+</details>
 
+<details>
+  <summary>Step 5️⃣. 운영 환경 애플리케이션 인증 정보 (ID/Secret) 발급하기</summary>
+  
+  <br/>
+  발급된 애플리케이션은 별도 메일 발송됩니다. (파일 암호는 '휴대폰 번호' 로 발송됩니다.)
+  
+</details>
+
+<details>
+  <summary>Step 6️⃣. 운영 환경 API 적용</summary>
+  
+  <br/>
+  발급된 애플리케이션을 운영 환경에 적용하고 사용자들이 해당 기능들을 이용할 수 있도록 서비스 오픈합니다. 
+  
 </details>
 
 ---
