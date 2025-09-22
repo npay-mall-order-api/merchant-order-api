@@ -70,7 +70,7 @@ Repository 알림 (Watch) 을 활성화 해주시면 원활한 문의&답변이 
 
 
 <details>
-  <summary>Step 3️⃣. 개발 환경 검수 요청하기</summary>
+  <summary>Step 2️⃣. 개발 환경 검수 요청하기</summary>
   
   <br />
   
@@ -80,7 +80,7 @@ Repository 알림 (Watch) 을 활성화 해주시면 원활한 문의&답변이 
 </details>
 
 <details>
-  <summary>Step 5️⃣. 운영 환경 애플리케이션 인증 정보 (ID/Secret) 발급하기</summary>
+  <summary>Step 3️⃣. 운영 환경 애플리케이션 인증 정보 (ID/Secret) 발급하기</summary>
   
   <br/>
   발급된 애플리케이션은 별도 메일 발송됩니다. (파일 암호는 '휴대폰 번호' 로 발송됩니다.)
@@ -88,7 +88,7 @@ Repository 알림 (Watch) 을 활성화 해주시면 원활한 문의&답변이 
 </details>
 
 <details>
-  <summary>Step 6️⃣. 운영 환경 API 적용</summary>
+  <summary>Step 4️⃣. 운영 환경 API 적용</summary>
   
   <br/>
   발급된 애플리케이션을 운영 환경에 적용하고 사용자들이 해당 기능들을 이용할 수 있도록 서비스 오픈합니다. 
