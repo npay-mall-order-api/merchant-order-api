@@ -74,7 +74,7 @@ Repository 알림 (Watch) 을 활성화 해주시면 원활한 문의&답변이 
   
   <br />
   
-  개발 환경에서의 API 연동 개발이 완료되면 기술지원 부서로 검수 요청을 합니다. ➡ 검수 요청 [바로가기](https://github.com/npay-mall-order-api/partner-cafe24/discussions/categories/q-a) <br/>
+  개발 환경에서의 API 연동 개발이 완료되면 기술지원 부서로 검수 요청을 합니다. ➡ 검수 요청 [바로가기](https://github.com/npay-mall-order-api/merchant-order-api/discussions/categories/q-a) <br/>
   검수 중 수정이 필요한 내용들은 수정 요청드릴 예정이며, 수정이 모두 확인되면 개발 환경에서의 검수가 완료됩니다.
   
 </details>
