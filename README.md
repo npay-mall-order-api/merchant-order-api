@@ -10,7 +10,7 @@
 ---
 
 ## Github 소개
-Npay 주문형 연동 개발을 위한 기술지원 Github 공간입니다. <br/>
+네이버페이 주문형 API 연동 개발을 위한 기술지원 Github 공간입니다. <br/>
 Repository 알림 (Watch) 을 활성화 해주시면 원활한 문의&답변이 가능합니다. <br />
 (※ Repository 상단 → Watch → Participating and @mentions) 
 
@@ -26,24 +26,31 @@ Repository 알림 (Watch) 을 활성화 해주시면 원활한 문의&답변이 
 
 ---
 
-## 주문형 API 소개
-네이버페이 주문형 가맹점이 네이버페이 이용 중 주문 관련 내역 또는 그 밖의 필요한 정보를 조회 혹은 처리할 수 있는 API 입니다. <br />
+## API 소개
+### 주문관리 API
+네이버페이 주문형 가맹점이 네이버페이 이용 중 주문 관련 내역 또는 그 밖의 필요한 정보를 조회 혹은 처리할 수 있는 API 입니다. <br/>
+### 정산 API
+네이버페이 정산 정보를 조회할 수 있는 API 입니다. <br/>
 
 ---
 
-## 주문형 API 문서 가이드 
+## API 문서 가이드 
+### 주문관리 API
 - 개발 환경 API 문서 : https://sandbox-api.pay.naver.com/npay/partner
 - 운영 환경 API 문서 : https://api.pay.naver.com/npay/partner <br/><br/>
 ※ 위 문서는 발급받은 애플리케이션 `ID`/`시크릿` 으로 확인 가능합니다.
+
+### 정산 API
+
 ---
 
-## 주문형 API 연동 프로세스
+## API 연동 프로세스
 
 <details>
   <summary>Step 0️⃣. 개발 환경 애플리케이션 인증 정보 (ID/Secret) 발급하기</summary>
 
   <br/>
-  발급된 애플리케이션은 별도 메일 발송됩니다. (파일 암호는 '휴대폰 번호' 로 발송됩니다.)
+  [네이버페이센터](url)에서 발급하실 수 있습니다. 
 
 </details>
 
@@ -77,12 +84,17 @@ Repository 알림 (Watch) 을 활성화 해주시면 원활한 문의&답변이 
   개발 환경에서의 API 연동 개발이 완료되면 기술지원 부서로 검수 요청을 합니다. ➡ 검수 요청 [바로가기](https://github.com/npay-mall-order-api/merchant-order-api/discussions/categories/q-a) <br/>
   검수 중 수정이 필요한 내용들은 수정 요청드릴 예정이며, 수정이 모두 확인되면 개발 환경에서의 검수가 완료됩니다.
   
+  > **⚠️[주의](https://github.com/npay-mall-order-api/partner-cafe24?tab=security-ov-file#%EC%A3%BC%EC%9D%98%EC%82%AC%ED%95%AD%EF%B8%8F):** 공개가 부적합한 정보는 게시되어선 안됩니다.  
+  > 등록하신 문의 내용은 게시 즉시 다른 사용자들에게도 공개됩니다.  
+  > 내용의 본문, 첨부파일 등으로 아래에 해당하는 정보를 게시하지 않도록 주의해주시기 바랍니다.
+  
 </details>
 
 <details>
   <summary>Step 3️⃣. 운영 환경 애플리케이션 인증 정보 (ID/Secret) 발급하기</summary>
   
   <br/>
+  개발 환경에서의 검수가 완료되고 이슈가 없다고 판단되면 기술지원 부서에서 운영 환경 애플리케이션을 발급합니다.
   발급된 애플리케이션은 별도 메일 발송됩니다. (파일 암호는 '휴대폰 번호' 로 발송됩니다.)
   
 </details>
@@ -97,11 +109,12 @@ Repository 알림 (Watch) 을 활성화 해주시면 원활한 문의&답변이 
 
 ---
 
-## 주문형 API 내용
+## API 내용
 ### 호스트
 - 운영 환경 : `https://api.pay.naver.com/npay/partner`
 - 개발 환경 : `https://sandbox-api.pay.naver.com/npay/partner`
 
+### 주문관리 API
 | 구분                    | API                           | Method | Path          | 설명                                               |
 |-------------------------|-------------------------------|------|---------------|----------------------------------------------------|
 | 주문조회   | 변경 상품 주문 내역 조회       | ![GET](https://img.shields.io/badge/GET-blue) | `/v1/pay-order/mall/product-orders/last-changed-statuses` | 조회 범위 내에 변경 이력이 있는 상품 주문 내역을 조회 |
@@ -125,9 +138,11 @@ Repository 알림 (Watch) 을 활성화 해주시면 원활한 문의&답변이 
 |           | 교환 보류 해제                 | ![POST](https://img.shields.io/badge/POST-green) | `/v1/pay-order/mall/product-orders/{productOrderId}/claim/exchange/holdback/release` |  1건의 상품 주문에 대한 교환 보류를 해제 |
 | 리뷰      | 리뷰 조회                     | ![GET](https://img.shields.io/badge/GET-blue) | `/v1/pay-order/mall/reviews` |  상품 주문에 대한 리뷰를 조회 |
 
+### 정산 API
+
 ---
 
-### 주문 상태 변경 다이어그램
+## 주문 상태 변경 다이어그램
 정상 주문, 취소, 반품, 교환에 따른 주문의 상태 변경을 다이어그램으로 설명합니다. 
 
 | 구분         | 링크                                                         | 
