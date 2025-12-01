@@ -1,0 +1,10 @@
+title: "네이버페이 주문형 서비스 API 가이드"
+labels: ["documentation", "naverpay"]
+category: "API Guide"
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # 📦 네이버페이 주문형 서비스 API 가이드
+        아래 템플릿에 맞춰 내용을 작성해주세요.
