@@ -1,4 +1,6 @@
 title: "[검수요청] 개발 환경 검수 요청드립니다."
+labels:
+  - "검수요"
 body:
   - type: markdown
     attributes:
@@ -7,7 +9,6 @@ body:
 
         ## 1️⃣ 가맹점 정보 입력하기
         ※ 가맹점ID 는 네이버페이센터 > 내정보 > 가입정보변경 > 페이센터ID 경로에서 확인하실 수 있습니다.
-
   - type: input
     id: merchant_id
     attributes:
