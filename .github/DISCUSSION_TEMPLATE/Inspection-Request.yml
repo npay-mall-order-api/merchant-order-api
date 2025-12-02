@@ -12,14 +12,14 @@ body:
     id: merchant_id
     attributes:
       label: "가맹점 ID"
-      placeholder: "_np_xxxxxx_"
+      placeholder: "np_xxxxxx"
 
   - type: markdown
     attributes:
       value: |
         ## 2️⃣ API 연동 및 호출 현황 작성하기  
-        ※ Trace ID는 응답 메시지의 `GNCP-GW-Trace-ID` 헤더에서 확인 가능합니다.  
-        ※ 모든 API를 연동할 필요는 없으며, 성공 호출된 Trace ID만 기입해 주세요.
+        ※ Trace ID는 응답 메시지의 GNCP-GW-Trace-ID 헤더에서 확인하실 수 있습니다.
+        연동하시고자 하는 API 를 선택적으로 연동하실 수 있으며, API 를 호출하신 후에 성공 건의 응답문에 포함되어 있는 Trace ID 를 기입해주시면 됩니다.
 
   - type: markdown
     attributes:
