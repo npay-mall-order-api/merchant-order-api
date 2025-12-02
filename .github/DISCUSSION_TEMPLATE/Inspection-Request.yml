@@ -1,17 +1,14 @@
-title: "[검수요청] 개발 환경 검수 요청드립니다."
-labels:
-  - "검수요청"
 body:
   - type: input
-    id: order_change_list
+    id: placeholder
     attributes:
-      label: "변경 상품 주문 내역 조회 Trace ID"
-      placeholder: "abcd"
+      label: "사용자 입력 (필수 아님)"
+      placeholder: "입력하지 않아도 됩니다"
 
   - type: markdown
     attributes:
       value: |
         ### 주문조회
-        - [ ] 상품 주문 상세 내역 조회 :
-        - [ ] 상품 주문 번호 목록 조회 :
-        - [ ] 조건형 상품 주문 상세 내역 조회 :
+        - [ ] 변경 상품 주문 내역 조회 : _Trace ID 입력_
+        - [ ] 상품 주문 번호 목록 조회 : _Trace ID 입력_
+        - [ ] 조건형 상품 주문 상세 내역 조회 : _Trace ID 입력_
