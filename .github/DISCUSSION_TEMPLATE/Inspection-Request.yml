@@ -12,7 +12,6 @@ body:
     attributes:
       value: |
         ### 주문조회
-        - [ ] 변경 상품 주문 내역 조회 : {{ inputs.order_change_list }}
         - [ ] 상품 주문 상세 내역 조회 :
         - [ ] 상품 주문 번호 목록 조회 :
         - [ ] 조건형 상품 주문 상세 내역 조회 :
