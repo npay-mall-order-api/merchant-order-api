@@ -45,7 +45,7 @@ Repository 알림 (Watch) 을 활성화 해주시면 원활한 문의&답변이 
 ---
 
 ## API 연동 프로세스
-
+### 주문관리 API
 <details>
   <summary>Step 0️⃣. 개발 환경 애플리케이션 인증 정보 (ID/Secret) 발급하기</summary>
 
