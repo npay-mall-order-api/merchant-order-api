@@ -45,12 +45,12 @@ Repository 알림 (Watch) 을 활성화 해주시면 원활한 문의&답변이 
 ---
 
 ## API 연동 프로세스
-### 주문관리 API
+
 <details>
   <summary>Step 0️⃣. 개발 환경 애플리케이션 인증 정보 (ID/Secret) 발급하기</summary>
 
   <br/>
-  [네이버페이센터](url)에서 발급하실 수 있습니다. 
+  [네이버페이센터](https://admin.pay.naver.com)에서 발급하실 수 있습니다. 
 
 </details>
 
@@ -81,7 +81,7 @@ Repository 알림 (Watch) 을 활성화 해주시면 원활한 문의&답변이 
   
   <br />
   
-  개발 환경에서의 API 연동 개발이 완료되면 기술지원 부서로 검수 요청을 합니다. ➡ 검수 요청 [바로가기](https://github.com/npay-mall-order-api/merchant-order-api/discussions/categories/q-a) <br/>
+  개발 환경에서의 API 연동 개발이 완료되면 기술지원 부서로 검수 요청을 합니다. ➡ 검수 요청 [바로가기](https://github.com/npay-mall-order-api/merchant-order-api/discussions/categories/inspection-request) <br/>
   검수 중 수정이 필요한 내용들은 수정 요청드릴 예정이며, 수정이 모두 확인되면 개발 환경에서의 검수가 완료됩니다.
   
   > **⚠️[주의](https://github.com/npay-mall-order-api/partner-cafe24?tab=security-ov-file#%EC%A3%BC%EC%9D%98%EC%82%AC%ED%95%AD%EF%B8%8F):** 공개가 부적합한 정보는 게시되어선 안됩니다.  
