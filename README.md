@@ -50,7 +50,15 @@ Repository 알림 (Watch) 을 활성화 해주시면 원활한 문의&답변이 
   <summary>Step 0️⃣. 개발 환경 애플리케이션 인증 정보 (ID/Secret) 발급하기</summary>
 
   <br/>
-  [네이버페이센터](https://admin.pay.naver.com)에서 발급하실 수 있습니다. 
+  네이버페이센터에서 발급하실 수 있습니다. <br/> <br/>
+  ※ 단, 네이버 예약 가맹점과 제휴 파트너사를 통해 입점한 주문형 가맹점은 네이버페이센터에서의 발급이 불가하여, <br/>
+  ✉️dl_techsupport@navercorp.com 으로 아래 양식과 함께 메일 문의주시면 됩니다. <br/>
+  ※ 발급된 애플리케이션은 별도 메일 발송됩니다. (파일 암호는 '휴대폰 번호' 로 발송됩니다.) <br/>
+  <br/>
+  
+>- 가맹점 ID : np_xxxxxx  <br/>
+>- 개발 담당자 이메일 :  <br/>
+>- API 호출 IP  <br/>
 
 </details>
 
