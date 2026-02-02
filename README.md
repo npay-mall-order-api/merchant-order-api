@@ -47,12 +47,13 @@ Repository 알림 (Watch) 을 활성화 해주시면 원활한 문의&답변이 
 ## API 연동 프로세스
 
 <details>
-  <summary>Step 0️⃣. 개발 환경 애플리케이션 인증 정보 (ID/Secret) 발급하기</summary>
+  <summary>Step 0️⃣. 개발 환경 애플리케이션 발급하기</summary>
 
   <br/>
   
-  개발 (Sandbox) 환경의 애플리케이션은 [네이버페이센터](https://admin.pay.naver.com) 에서 발급하실 수 있습니다.
-  <br/>
+  개발 (Sandbox) 환경의 애플리케이션은 [네이버페이센터](https://admin.pay.naver.com) 에서 발급하실 수 있습니다.<br/> <br/>
+  예약 가맹점이나 제휴 호스팅사 통해 입점한 주문형 가맹점은 주문관리/정산 API 연동이 불가합니다. <br/>관련 문의사항은 Q&A 나 ✉️dl_techsupport@navercorp.com 으로 문의주시기 바랍니다.
+  <br/><br/>
 </details>
 
 <details>
@@ -87,17 +88,17 @@ Repository 알림 (Watch) 을 활성화 해주시면 원활한 문의&답변이 
   
   > **⚠️[주의](https://github.com/npay-mall-order-api/partner-cafe24?tab=security-ov-file#%EC%A3%BC%EC%9D%98%EC%82%AC%ED%95%AD%EF%B8%8F):** 공개가 부적합한 정보는 게시되어선 안됩니다.  
   > 등록하신 문의 내용은 게시 즉시 다른 사용자들에게도 공개됩니다.  
-  > 내용의 본문, 첨부파일 등으로 아래에 해당하는 정보를 게시하지 않도록 주의해주시기 바랍니다.
-  
+  > 내용의 본문, 첨부파일 등으로 [공개가 부적합한 정보](https://github.com/npay-mall-order-api/partner-cafe24?tab=security-ov-file#%EC%A3%BC%EC%9D%98%EC%82%AC%ED%95%AD%EF%B8%8F)가 포함되지 않도록 주의해주시기 바랍니다. 
+  <br/>
 </details>
 
 <details>
-  <summary>Step 3️⃣. 운영 환경 애플리케이션 인증 정보 (ID/Secret) 발급하기</summary>
+  <summary>Step 3️⃣. 운영 환경 애플리케이션 발급하기</summary>
   
   <br/>
-  개발 환경에서의 검수가 완료되고 이슈가 없다고 판단되면 기술지원 부서에서 운영 환경 애플리케이션을 발급합니다. <br/> <br/>
+  개발 환경에서의 검수가 완료되었다면 운영 환경 애플리케이션 발급이 가능한 상태입니다. <br/> <br/>
   
-  검수가 완료되었을 경우 ✉️dl_techsupport@navercorp.com 으로 아래 양식과 함께 메일 문의주시면 됩니다. (검수 완료 여부 확인 후 발급) <br/>
+  검수가 완료되고 운영 환경 애플리케이션 발급을 원하시면 아래 양식과 함께 ✉️dl_techsupport@navercorp.com 로 메일주시면 됩니다. (검수 완료 여부 확인 후 발급) <br/>
   발급된 애플리케이션은 별도 메일 발송됩니다. (파일 암호는 '휴대폰 번호' 로 발송됩니다.)
 
 >- 가맹점 ID : np_xxxxxx  <br/>
@@ -105,8 +106,8 @@ Repository 알림 (Watch) 을 활성화 해주시면 원활한 문의&답변이 
 >- API 호출 IP  <br/>
  
   ※ 가맹점ID 는 [네이버페이센터 > 내정보 > 가입정보변경 > 페이센터ID] 경로에서 확인하실 수 있습니다.  <br/>
-  ※ 위 가맹점 및 개인 정보는 이 공간에 게시되어선 안됩니다. 내용의 본문, 첨부파일 등으로 아래에 해당하는 정보를 게시하지 않도록 주의해주시기 바랍니다.
-
+  ※ 위 가맹점 및 개인 정보는 이 공간에 게시되어선 안됩니다. 내용의 본문, 첨부파일 등으로 [공개가 부적합한 정보](https://github.com/npay-mall-order-api/partner-cafe24?tab=security-ov-file#%EC%A3%BC%EC%9D%98%EC%82%AC%ED%95%AD%EF%B8%8F)가 포함되지 않도록 주의해주시기 바랍니다. 
+<br/>
 </details>
 
 <details>
