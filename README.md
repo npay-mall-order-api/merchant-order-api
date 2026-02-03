@@ -35,12 +35,9 @@ Repository 알림 (Watch) 을 활성화 해주시면 원활한 문의&답변이 
 ---
 
 ## API 문서 가이드 
-### · 주문관리 API
 - 개발 환경 API 문서 : https://sandbox-api.pay.naver.com/npay/partner
 - 운영 환경 API 문서 : https://api.pay.naver.com/npay/partner <br/><br/>
 ※ 위 문서는 발급받은 애플리케이션 `ID`/`시크릿` 으로 확인 가능합니다.
-
-### · 정산 API
 
 ---
 
@@ -126,7 +123,7 @@ Repository 알림 (Watch) 을 활성화 해주시면 원활한 문의&답변이 
 - 개발 환경 : `https://sandbox-api.pay.naver.com/npay/partner`
 
 ### · 주문관리 API
-| 구분                    | API                           | Method | Path          | 설명                                               |
+| Category                | API                           | Method | Path          | Description                                      |
 |-------------------------|-------------------------------|------|---------------|----------------------------------------------------|
 | 주문조회   | 변경 상품 주문 내역 조회       | ![GET](https://img.shields.io/badge/GET-blue) | `/v1/pay-order/mall/product-orders/last-changed-statuses` | 조회 범위 내에 변경 이력이 있는 상품 주문 내역을 조회 |
 |           | 상품 주문 상세 내역 조회        | ![POST](https://img.shields.io/badge/POST-green) | `/v1/pay-order/mall/product-orders/query` |  상품 주문에 대한 상세 상품 주문 내역을 조회 |
@@ -150,6 +147,13 @@ Repository 알림 (Watch) 을 활성화 해주시면 원활한 문의&답변이 
 | 리뷰      | 리뷰 조회                     | ![GET](https://img.shields.io/badge/GET-blue) | `/v1/pay-order/mall/reviews` |  상품 주문에 대한 리뷰를 조회 |
 
 ### · 정산 API
+| Category                | API                           | Method | Path          | Description                                       |
+|-------------------------|-------------------------------|------|---------------|----------------------------------------------------|
+| 정산내역   | 건별 정산 내역 조회       | ![GET](https://img.shields.io/badge/GET-blue) | `/v1/pay-settle-mall/settle/case` | 조회 기간의 일별 정산금액 정보를 조회 |
+|           | 일별 정산 내역 조회        | ![GET](https://img.shields.io/badge/GET-blue) | `/v1/pay-settle-mall/settle/daily` |  조회 기간의 상품주문 단위 건별 정산 내역을 조회 |
+|           | 수수료 상세 내역 조회      | ![GET](https://img.shields.io/badge/GET-blue) | `/v1/pay-settle-mall/settle/commission-details` |  조회 기간의 상품주문 단위 건별 수수료 상세 내역을 조회 |
+| 부가세 내역 | 건별 부가세 내역 조회     | ![GET](https://img.shields.io/badge/GET-blue) | `/v1/pay-settle-mall/vat/case` |  조회 기간의 일별 부가세 정보를 조회 |
+|            | 일별 부가세 내역 조회     | ![GET](https://img.shields.io/badge/GET-blue) | `/v1/pay-settle-mall/vat/daily` |  조회 기간의 상품주문 단위 건별 부가세 내역을 조회 |
 
 ---
 
