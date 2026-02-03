@@ -22,6 +22,16 @@ Repository 알림 (Watch) 을 활성화 해주시면 원활한 문의&답변이 
 | 💡 자주 묻는 질문 | API 연동 중 자주 묻는 질문 (FAQ) 을 확인하실 수 있습니다. | ➡ [바로가기](https://github.com/npay-mall-order-api/merchant-order-api/discussions/categories/faq) |
 | 📖 Wiki | API 연동 가이드 및 참고 정보를 확인하실 수 있습니다.  | ➡ [바로가기](https://github.com/npay-mall-order-api/merchant-order-api/wiki) |
 
+---
+## 버튼 유형
+| 구분| 템플릿형 | 커스텀형 |
+| :---: | :---: | :---: |
+| 설명 | 네이버페이에서 구성한 표준 디자인 | 버튼 디자인을 가맹점에서 커스텀  |
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;난이도&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 쉬움 | 보통 |
+| 추천 | 빠른 도입이 필요한 가맹점 | 브랜드 일관성이 중요한 가맹점  |
+| 예시 | <img width="100%" align="center" src="https://github.com/user-attachments/assets/51a9e291-fb1d-4649-9726-c405059fb7dc" />  | <img width="100%" align="center" src="https://github.com/user-attachments/assets/0ea0511e-e075-47fc-9fcd-434cfd0511e5" /> |
+
+
 
 
 ---
