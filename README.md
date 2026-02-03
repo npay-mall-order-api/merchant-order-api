@@ -1,5 +1,5 @@
 <!-- ================= HEADER ================= -->
-# 주문형 API 개발 기술지원
+# 주문형 가맹점 API 개발 기술지원
 
 ![GitHub stars](https://img.shields.io/github/stars/npay-mall-order-api/merchant-order-api?style=social)
 ![GitHub Discussions](https://img.shields.io/github/discussions/npay-mall-order-api/merchant-order-api?style=social)
@@ -10,7 +10,7 @@
 ---
 
 ## Github 소개
-네이버페이 주문형 API 연동 개발을 위한 기술지원 Github 공간입니다. <br/>
+네이버페이 주문형 가맹점 API 연동 개발을 위한 기술지원 Github 공간입니다. <br/>
 Repository 알림 (Watch) 을 활성화 해주시면 원활한 문의&답변이 가능합니다. <br />
 (※ Repository 상단 → Watch → Participating and @mentions) 
 
@@ -35,8 +35,8 @@ Repository 알림 (Watch) 을 활성화 해주시면 원활한 문의&답변이 
 ---
 
 ## API 문서 가이드 
-- 개발 환경 API 문서 : https://sandbox-api.pay.naver.com/npay/partner
-- 운영 환경 API 문서 : https://api.pay.naver.com/npay/partner <br/><br/>
+- Sandbox 환경 API 문서 : https://sandbox-api.pay.naver.com/npay/partner
+- Production 환경 API 문서 : https://api.pay.naver.com/npay/partner <br/><br/>
 ※ 위 문서는 발급받은 애플리케이션 `ID`/`시크릿` 으로 확인 가능합니다.
 
 ---
@@ -44,17 +44,17 @@ Repository 알림 (Watch) 을 활성화 해주시면 원활한 문의&답변이 
 ## API 연동 프로세스
 
 <details>
-  <summary>Step 0️⃣. 개발 환경 애플리케이션 발급하기</summary>
+  <summary>Step 0️⃣. Sandbox 환경 애플리케이션 발급하기</summary>
 
   <br/>
   
-  개발 (Sandbox) 환경의 애플리케이션은 [네이버페이센터](https://admin.pay.naver.com) 에서 발급하실 수 있습니다.<br/> <br/>
+  Sandbox 환경의 애플리케이션은 [네이버페이센터](https://admin.pay.naver.com) 에서 발급하실 수 있습니다.<br/> <br/>
   예약 가맹점이나 제휴 호스팅사 통해 입점한 주문형 가맹점은 주문관리/정산 API 연동이 불가합니다. <br/>관련 문의사항은 Q&A 나 ✉️dl_techsupport@navercorp.com 으로 문의주시기 바랍니다.
   <br/><br/>
 </details>
 
 <details>
-  <summary>Step 1️⃣. 개발 환경에서 API 연동하기</summary>
+  <summary>Step 1️⃣. Sandbox 환경에서 API 연동하기</summary>
 
   #### 1. OAuth 토큰 발급하기
   &nbsp;&nbsp;&nbsp;&nbsp;
@@ -76,12 +76,12 @@ Repository 알림 (Watch) 을 활성화 해주시면 원활한 문의&답변이 
 
 
 <details>
-  <summary>Step 2️⃣. 개발 환경 검수 요청하기</summary>
+  <summary>Step 2️⃣. Sandbox 환경 검수 요청하기</summary>
   
   <br />
   
-  개발 환경에서의 API 연동 개발이 완료되면 기술지원 부서로 검수 요청을 합니다. ➡ [검수 요청](https://github.com/npay-mall-order-api/merchant-order-api/discussions/categories/inspection-request) - New Discussion <br/>
-  검수 중 수정이 필요한 내용들은 수정 요청드릴 예정이며, 수정이 모두 확인되면 개발 환경에서의 검수가 완료됩니다.
+  Sandbox 환경에서의 API 연동 개발이 완료되면 기술지원 부서로 검수 요청을 합니다. ➡ [검수 요청](https://github.com/npay-mall-order-api/merchant-order-api/discussions/categories/inspection-request) - New Discussion <br/>
+  검수 중 수정이 필요한 내용들은 수정 요청드릴 예정이며, 수정이 모두 확인되면 Sandbox 환경에서의 검수가 완료됩니다.
   
   > **⚠️[주의](https://github.com/npay-mall-order-api/partner-cafe24?tab=security-ov-file#%EC%A3%BC%EC%9D%98%EC%82%AC%ED%95%AD%EF%B8%8F):** 공개가 부적합한 정보는 게시되어선 안됩니다.  
   > 등록하신 문의 내용은 게시 즉시 다른 사용자들에게도 공개됩니다.  
@@ -90,12 +90,12 @@ Repository 알림 (Watch) 을 활성화 해주시면 원활한 문의&답변이 
 </details>
 
 <details>
-  <summary>Step 3️⃣. 운영 환경 애플리케이션 발급하기</summary>
+  <summary>Step 3️⃣. Production 환경 애플리케이션 발급하기</summary>
   
   <br/>
-  개발 환경에서의 검수가 완료되었다면 운영 환경 애플리케이션 발급이 가능한 상태입니다. <br/> <br/>
+  Sandbox 환경에서의 검수가 완료되었다면 Production 환경 애플리케이션 발급이 가능한 상태입니다. <br/> <br/>
   
-  검수가 완료되고 운영 환경 애플리케이션 발급을 원하시면 아래 양식과 함께 ✉️dl_techsupport@navercorp.com 로 메일주시면 됩니다. (검수 완료 여부 확인 후 발급) <br/>
+  검수가 완료되고 Production 환경 애플리케이션 발급을 원하시면 아래 양식과 함께 ✉️dl_techsupport@navercorp.com 로 메일주시면 됩니다. (검수 완료 여부 확인 후 발급) <br/>
   발급된 애플리케이션은 별도 메일 발송됩니다. (파일 암호는 '휴대폰 번호' 로 발송됩니다.)
 
 >- 가맹점 ID : np_xxxxxx  <br/>
@@ -108,10 +108,10 @@ Repository 알림 (Watch) 을 활성화 해주시면 원활한 문의&답변이 
 </details>
 
 <details>
-  <summary>Step 4️⃣. 운영 환경 API 적용</summary>
+  <summary>Step 4️⃣. Production 환경 API 적용</summary>
   
   <br/>
-  발급된 애플리케이션을 운영 환경에 적용하고 사용자들이 해당 기능들을 이용할 수 있도록 서비스 오픈합니다. 
+  발급된 애플리케이션을 Production 환경에 적용하고 사용자들이 해당 기능들을 이용할 수 있도록 서비스 오픈합니다. 
   
 </details>
 
@@ -119,8 +119,8 @@ Repository 알림 (Watch) 을 활성화 해주시면 원활한 문의&답변이 
 
 ## API 내용
 ### 호스트
-- 운영 환경 : `https://api.pay.naver.com/npay/partner`
-- 개발 환경 : `https://sandbox-api.pay.naver.com/npay/partner`
+- Production 환경 : `https://api.pay.naver.com/npay/partner`
+- Sandbox 환경 : `https://sandbox-api.pay.naver.com/npay/partner`
 
 ### · 주문관리 API
 | Category                | API                           | Method | Path          | Description                                      |
