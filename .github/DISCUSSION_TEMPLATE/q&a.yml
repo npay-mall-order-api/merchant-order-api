@@ -1,7 +1,6 @@
 title: "[검수요청] 개발 환경 검수 요청드립니다."
 labels:
   - "검수요청"
-category: "Q&A"
 body:
   - type: textarea
     id: api_status
