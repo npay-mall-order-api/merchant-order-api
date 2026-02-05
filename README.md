@@ -24,6 +24,8 @@ Repository 알림 (Watch) 을 활성화 해주시면 원활한 문의&답변이 
 
 ---
 ## 버튼 유형
+버튼과 관련된 자세한 가이드는 [네이버페이센터 → 판매관리 → [구매버튼관리](https://admin.pay.naver.com/front/o/v1/order_pay/page/sale/buy-button-preview)] 에서 확인 가능합니다.
+
 | 구&nbsp;&nbsp;&nbsp;&nbsp;분| 템플릿형 | 커스텀형 |
 | :---: | :---: | :---: |
 |   설명   | 네이버페이에서 구성한 표준 디자인 | 버튼 디자인을 가맹점에서 커스텀  |
