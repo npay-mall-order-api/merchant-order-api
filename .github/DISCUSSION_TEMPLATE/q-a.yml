@@ -1,9 +1,9 @@
 title: "[문의] {중괄호를 지우고 문의 내용을 작성해주세요}"
-label: "아래 양식을 그대로 작성해 주세요"
 body:
   - type: textarea
     id: api_status
     attributes:
+      label: "아래 양식을 그대로 작성해 주세요"
       value: |
         ### 문의 배경
         <!-- 문의하시는 배경을 작성해주세요. -->
