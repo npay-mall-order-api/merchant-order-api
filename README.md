@@ -44,7 +44,9 @@ Repository 알림 (Watch) 을 활성화 해주시면 원활한 문의&답변이 
 
 ---
 
-## API 소개
+## 주문형 가맹점 API 소개
+### · 주문등록 API
+네이버페이 구매하기 버튼과 주문서를 연동하실 수 있는 API 입니다. <br/>
 ### · 주문관리 API
 네이버페이 주문 정보를 조회 및 처리할 수 있는 API 입니다. <br/>
 ### · 정산 API
@@ -52,14 +54,14 @@ Repository 알림 (Watch) 을 활성화 해주시면 원활한 문의&답변이 
 
 ---
 
-## API 문서 가이드 
+## 주문관리/정산 API 문서 가이드 
 - Sandbox 환경 API 문서 : https://sandbox-api.pay.naver.com/npay/partner
 - Production 환경 API 문서 : https://api.pay.naver.com/npay/partner <br/><br/>
 ※ 위 문서는 발급받은 애플리케이션 `ID`/`시크릿` 으로 확인 가능합니다.
 
 ---
 
-## API 연동 프로세스
+## 주문관리/정산 API 연동 프로세스
 
 <details>
   <summary>Step 0️⃣. Sandbox 환경 애플리케이션 발급하기</summary>
@@ -135,7 +137,7 @@ Repository 알림 (Watch) 을 활성화 해주시면 원활한 문의&답변이 
 
 ---
 
-## API 내용
+## 주문관리/정산 API 내용
 ### 호스트
 - Sandbox 환경 : `https://sandbox-api.pay.naver.com/npay/partner`
 - Production 환경 : `https://api.pay.naver.com/npay/partner`
