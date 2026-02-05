@@ -24,7 +24,7 @@ Repository 알림 (Watch) 을 활성화 해주시면 원활한 문의&답변이 
 
 ---
 ## 주문형 버튼
-버튼과 관련된 자세한 가이드는 [네이버페이센터 → 판매관리 → [구매버튼관리](https://admin.pay.naver.com/front/o/v1/order_pay/page/sale/buy-button-preview)] 에서 확인 가능합니다.
+버튼 연동 가이드는 [네이버페이센터 → 판매관리 → [구매버튼관리](https://admin.pay.naver.com/front/o/v1/order_pay/page/sale/buy-button-preview)] 에서 확인 가능합니다.
 
 #### 버튼 유형
 | 구&nbsp;&nbsp;&nbsp;&nbsp;분| 템플릿형 | 커스텀형 |
@@ -34,8 +34,13 @@ Repository 알림 (Watch) 을 활성화 해주시면 원활한 문의&답변이 
 | 추천 | 빠른 도입이 필요한 가맹점 | 브랜드 일관성이 중요한 가맹점  |
 | 예시 | <img width="100%" align="center" src="https://github.com/user-attachments/assets/51a9e291-fb1d-4649-9726-c405059fb7dc" />  | <img width="100%" align="center" src="https://github.com/user-attachments/assets/0ea0511e-e075-47fc-9fcd-434cfd0511e5" /> |
 
+#### 버튼 경로
 - Sandbox 환경 : `https://test-api.pay.naver.com/assets/button/latest/npay.button.js` (26.02.11 부터 호출 가능)
 - Production 환경 : `https://npay-order.pstatic.net/assets/button/latest/npay.button.js`
+
+#### 
+
+
 
 ---
 
