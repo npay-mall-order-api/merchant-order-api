@@ -13,6 +13,10 @@ body:
         <!-- 문의하시는 내용을 상세히 작성해주세요. -->
         ⚠️문의 내용에 가맹점 담당자의 개인정보나 보안이 필요한 민감 정보로 공개를 원하지 않으시는 경우에는  <br/> `dl_techsupport@navercorp.com` 주소로 문의해주시기 바랍니다.
 
+        ---
+        ### API 호출 정보 (필수)
+        #### API 호출 Trace ID : 
+        ⚠️API 호출 Trace ID 는 응답 헤더 (Response header) 의 GNCP-GW-Trace-ID 로 확인할 수 있으며, API 게이트웨이 서버의 오류가 발생한 경우에는 응답 메시지의 traceId 필드에서 확인할 수 있습니다.
         
         ---
         ### 관련 첨부자료
