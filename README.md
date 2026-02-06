@@ -35,7 +35,7 @@ Repository 알림 (Watch) 을 활성화 해주시면 원활한 문의&답변이 
 | 예시 | <img width="100%" align="center" src="https://github.com/user-attachments/assets/51a9e291-fb1d-4649-9726-c405059fb7dc" />  | <img width="100%" align="center" src="https://github.com/user-attachments/assets/0ea0511e-e075-47fc-9fcd-434cfd0511e5" /> |
 
 #### 버튼 경로
-- Sandbox 환경 : `https://test-pay.naver.com/assets/button/latest/npay.button.js` (26.02.11 부터 호출 가능)
+- Sandbox 환경 : `https://test-pay.naver.com/assets/button/latest/npay.button.js`
 - Production 환경 : `https://npay-order.pstatic.net/assets/button/latest/npay.button.js `
 
 #### 
