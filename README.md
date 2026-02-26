@@ -69,7 +69,7 @@ Repository 알림 (Watch) 을 활성화 해주시면 원활한 문의&답변이 
   <br/>
   
   Sandbox 환경의 애플리케이션은 [네이버페이센터](https://admin.pay.naver.com) 에서 발급하실 수 있습니다.<br/> <br/>
-  예약 가맹점이나 제휴 호스팅사 통해 입점한 주문형 가맹점은 주문관리/정산 API 연동이 불가합니다. <br/>관련 문의사항은 Q&A 나 ✉️dl_techsupport@navercorp.com 으로 문의주시기 바랍니다.
+  제휴 호스팅사 통해 입점한 주문형 가맹점은 주문관리/정산 API 연동이 불가합니다. <br/>관련 문의사항은 Q&A 나 ✉️dl_techsupport@navercorp.com 으로 문의주시기 바랍니다.
   <br/><br/>
 </details>
 
