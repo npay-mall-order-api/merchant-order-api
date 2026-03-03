@@ -61,7 +61,7 @@ Repository 알림 (Watch) 을 활성화 해주시면 원활한 문의&답변이 
 
 ---
 
-## 주문관리/정산 API 연동 프로세스
+## 주문관리 API 연동 프로세스
 
 <details>
   <summary>Step 0️⃣. Sandbox 환경 애플리케이션 발급하기</summary>
