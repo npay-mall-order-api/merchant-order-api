@@ -105,7 +105,7 @@ Repository 알림 (Watch) 을 활성화 해주시면 원활한 문의&답변이 
   
   > **⚠️[주의](https://github.com/npay-mall-order-api/partner-cafe24?tab=security-ov-file#%EC%A3%BC%EC%9D%98%EC%82%AC%ED%95%AD%EF%B8%8F):** 공개가 부적합한 정보는 게시되어선 안됩니다.  
   > 등록하신 문의 내용은 게시 즉시 다른 사용자들에게도 공개됩니다.  
-  > 내용의 본문, 첨부파일 등으로 [공개가 부적합한 정보](https://github.com/npay-mall-order-api/partner-cafe24?tab=security-ov-file#%EC%A3%BC%EC%9D%98%EC%82%AC%ED%95%AD%EF%B8%8F)가 포함되지 않도록 주의해주시기 바랍니다. 
+  > 내용의 본문, 첨부파일 등으로 [공개가 부적합한 정보](https://github.com/npay-mall-order-api/merchant-order-api/discussions/4)가 포함되지 않도록 주의해주시기 바랍니다. 
   <br/>
 </details>
 
