@@ -38,7 +38,22 @@ jobs:
               discussionId: discussion.node_id,
               body: `안녕하세요. Npay 입니다.
 
-            문의가 접수되었습니다.
+            등록해주신 문의 사항이 정상적으로 접수되었습니다.
+            문의는 담당 부서에서 순차적으로 확인하고 있으며, 영업일 기준 1~3일 이내에 답변을 드릴 수 있도록 하겠습니다. 
+
+            💡 먼저 참고해 주세요!
+            답변을 기다리시는 동안, 비슷한 사례에 대한 해결책이 'FAQ' 에 있을 수 있습니다. 아래 항목을 먼저 확인해 보시면 더 빠른 해결이 가능합니다.
+            - [FAQ] [자주 묻는 질문 보러가기](https://github.com/npay-mall-order-api/merchant-order-api/discussions/categories/faq)
+            - [Q&A] [다른 개발자 질의응답 보러가기](https://github.com/npay-mall-order-api/merchant-order-api/discussions/categories/q-a)
+
+            ⚠️ 유의해 주세요!
+            - 문의 내용에 공개가 부적합한 정보가 포함되어 있진 않은지 확인해 주세요.
+                - 개인정보(주민등록번호, 연락처, 주소 등)
+                - 계정 비밀번호, 어플리케이션 정보, 토큰 등 인증 정보
+                - 회사 내부 기밀 문서 및 민감 자료
+            - 문의 내용에 공개가 부적합한 정보가 포함되어 있을 경우 보안을 위해 관리자에 의해 강제 삭제될 수 있습니다.
+            - 반드시 포함하여 문의해야 하는 경우 ✉️dl_techsupport@navercorp.com 으로 문의주시기 바랍니다.
+
             확인하는대로 답변드리겠습니다.
             
             감사합니다.`
