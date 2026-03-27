@@ -53,6 +53,11 @@ Repository 알림 (Watch) 을 활성화 해주시면 원활한 문의&답변이 
 네이버페이 정산 정보를 조회할 수 있는 API 입니다. <br/>
 
 ---
+## 주문등록 API 문서 가이드 
+- [1.0 버전](https://github.com/user-attachments/files/26292809/Naver_Pay-Shop_Interworking_Guide-ko_260204.pdf)
+- [2.1 버전](https://github.com/user-attachments/files/26292822/Naver_Pay-Shop_Interworking_Guide_2.1-ko_260204.pdf)
+
+---
 
 ## 주문관리/정산 API 문서 가이드 
 - Sandbox 환경 API 문서 : https://sandbox-api.pay.naver.com/npay/partner
