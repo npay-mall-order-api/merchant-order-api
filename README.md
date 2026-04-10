@@ -83,15 +83,15 @@ Repository 알림 (Watch) 을 활성화 해주시면 원활한 문의&답변이 
 
   #### 1. OAuth 토큰 발급하기
   &nbsp;&nbsp;&nbsp;&nbsp;
-  API 를 호출하기 위한 인증 토큰을 발급/갱신 요청합니다. ➡ 📖 API 문서 가이드 [바로가기](https://api.pay.naver.com/npay/partner#tag/OAuth-2.0)
+  API 를 호출하기 위한 인증 토큰을 발급/갱신 요청합니다. ➡ 📖 API 문서 가이드 [바로가기](https://sandbox-api.pay.naver.com/npay/partner#tag/OAuth-2.0)
   
-  >❓ 인증 토큰 Request Body 중 전자서명 생성하는 방법 ➡ 📖 API 문서 가이드 [바로가기](https://api.pay.naver.com/npay/partner#section/%EC%9D%B8%EC%A6%9D/%EC%A0%84%EC%9E%90%EC%84%9C%EB%AA%85) <br/>  <br />
+  >❓ 인증 토큰 Request Body 중 전자서명 생성하는 방법 ➡ 📖 API 문서 가이드 [바로가기](https://sandbox-api.pay.naver.com/npay/partner#section/%EC%9D%B8%EC%A6%9D/%EC%A0%84%EC%9E%90%EC%84%9C%EB%AA%85) <br/>  <br />
   >주문형 API 에서는 인증 토큰 발급을 요청할 때 client_secret 값을 직접 전달하지 않고 전자서명 (signature) 을 생성하여 전달하는 방법으로 client_secret 탈취에 대해 강화된 보안을 제공합니다.
 
   #### 2. 발급받은 토큰을 이용한 API 호출 및 개발
   
   &nbsp;&nbsp;&nbsp;&nbsp;
-  발급받은 인증 토큰을 HTTP Authorization Header 에 포함하여 API 를 호출합니다. ➡ 📖 API 문서 가이드 [바로가기](https://api.pay.naver.com/npay/partner#tag/%EC%A3%BC%EB%AC%B8-%EC%A1%B0%ED%9A%8C) <br/>  <br />
+  발급받은 인증 토큰을 HTTP Authorization Header 에 포함하여 API 를 호출합니다. ➡ 📖 API 문서 가이드 [바로가기](https://sandbox-api.pay.naver.com/npay/partner#tag/%EC%A3%BC%EB%AC%B8-%EC%A1%B0%ED%9A%8C) <br/>  <br />
   &nbsp;&nbsp;&nbsp;&nbsp;
   `Authorization: Bearer {access_token}`
 
