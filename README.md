@@ -197,6 +197,10 @@ Repository 알림 (Watch) 을 활성화 해주시면 원활한 문의&답변이 
 기존의 SOAP 방식에서 REST API 로 전환하시는 경우에는 이 문서를 참고해주세요. ➡ [바로가기](https://github.com/npay-mall-order-api/merchant-order-api/wiki/SOAP-%E2%86%92-REST-API-%EC%A0%84%ED%99%98-%EC%B0%B8%EA%B3%A0%EC%82%AC%ED%95%AD)
 
 
+---
 
-
-
+## 웹훅 API 문서 가이드 
+- Sandbox 환경 API 문서 : https://sandbox-api.pay.naver.com/npay/partner/webhook
+- Production 환경 API 문서 : https://api.pay.naver.com/npay/partner/webhook
+  
+※ 위 문서는 발급받은 애플리케이션 `ID`/`시크릿` 으로 확인 가능합니다.
